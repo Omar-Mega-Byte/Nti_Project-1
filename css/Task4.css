@@ -1,0 +1,482 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #000;
+    height: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.top p {
+    color: white;
+}
+
+nav div{
+    margin-left: 900px;
+    margin-top: -15px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    color: #4780d8;
+}
+
+#home {
+    color: #4780d8;
+}
+
+#inance {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #1e71db;
+    font-size: large;
+    font-weight: 500;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #d1e3ff;
+}
+
+#Repair {
+    color: #0355cc;
+    white-space: pre-wrap;
+    margin: 20px 0px 0px -50px;
+    line-height: 40px;
+    font-size: 2em;
+}
+
+#Lorem {
+    white-space: pre-wrap;
+    color: #44445d;
+    margin: -30px 0px 0px 25px;
+}
+
+#b1 {
+    text-transform: uppercase;
+    margin: -60px 100px 100px 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #ff8a1d;
+    border: none;
+    border-radius: 4px;
+}
+
+#b1:hover {
+    color: #ff8a1d;
+    background-color: white;
+    border: 1px solid #ff8a1d;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 190px;
+}
+
+#cards div{
+    z-index: 1000;
+    background-color: #FF8A1D;
+    margin-left: 20px;
+    width: 270px;
+    height: 200px;
+    box-shadow: 0px 0px 4.4px slategrey;
+    margin-top: 20px;
+    color: white;
+}
+
+#cards div:hover {
+    background-color: #ffffff;
+    color: #FF8A1D;
+    transition: background-color 300ms, color 300ms;
+}
+
+#cards div img{
+    width: 100px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#cards div p{
+    text-transform: uppercase;
+    width: 90px;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#man{
+    position: absolute;
+    top: 110px;
+    right: 130px;
+    width: 27.2%;
+    overflow: hidde;
+}
+
+#About-Us {
+    width: 100%;
+    height: 60vh;
+    background-color: #ffffff;
+    margin-top: 300px;
+
+}
+
+#About-Header {
+    text-transform: uppercase;
+    color: black;
+    white-space: pre-wrap;
+    margin: 200px 0px -50px -50px;
+    line-height: 40px;
+    font-size: 2em;
+}
+
+#b2 {
+    text-transform: uppercase;
+    margin: -60px 100px 0px 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #0355cc;
+    border: none;
+    border-radius: 2px;
+}
+
+#b2:hover {
+    color: #0355cc;
+    background-color: white;
+    border: 1px solid #0355cc;
+}
+
+#about-img {
+    position: absolute;
+    display: inline-block;
+    width: 35%;
+    margin-left: 350px;
+    margin-top: -240px;
+}
+
+#Services {
+    width: 100%;
+    height: 100vh;
+    background-color: #D1E3FF;
+}
+
+#Services img{
+    position: absolute;
+    display: inline-block;
+    width: 35%;
+    margin-top: 55px;
+    margin-left: 85px;
+}
+
+#Services-Header{
+    position: absolute;
+    color: #0355cc;
+    white-space: pre-wrap;
+    margin: 150px 0px 0px 620px;
+    line-height: 40px;
+    font-size: 2em;
+}
+#Services p{
+    position: absolute;
+    white-space: pre-wrap;
+    margin: 250px 0px 0px 620px;
+}
+#b3{
+    position: absolute;
+    white-space: pre-wrap;
+    margin: 370px 0px 0px 620px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #ff8a1d;
+    border: none;
+    border-radius: 3px;
+}
+
+#b3:hover {
+    color: #ff8a1d;
+    background-color: white;
+    border: 1px solid #ff8a1d;
+}
+
+#Our-Services{
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+}
+
+#Our-Header{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 90px;
+    font-size: xx-large;
+}
+
+.Our-div{
+    display: inline-block;
+    width: 320px;
+    height: 200px;
+    box-shadow: 0px 0px 4.4px slategrey;
+    margin-left: 29px;
+    margin-top: 20px;
+}
+
+#divs-services{
+    text-align: center;
+}
+
+#divs-services h1 {
+    margin-top: -10px;
+    font-size: medium;
+}
+
+#divs-services p {
+    margin-top: 10px;
+    font-size: small;
+}
+
+#divs-services img {
+    margin: 20px;
+    width: 15%;
+}
+#b4{
+    text-transform: uppercase;
+    margin: 27px 0px 0px 566px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #0355cc;
+    border: none;
+    border-radius: 2px;
+}
+
+#b4:hover{
+    color: #0355cc;
+    background-color: white;
+    border: 1px solid #0355cc;
+}
+
+#clients{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+#clients h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 90px;
+    font-size: xx-large;
+}
+.client-card{
+    display: inline-block;
+    width: 500px;
+    height: 260px;
+    box-shadow: 0px 0px 4.4px slategrey;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#client-cards{
+    margin-left: 120px;
+}
+
+#client-cards img{
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 20%;
+}
+
+#client-cards p{
+    display: inline-block;
+    position: absolute;
+    top: 2580px;
+}
+
+.saying{
+    width: 90%;
+    margin-right: 90px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#b-cs{
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.b-c{
+    background-color: #0355CC;
+    color: #fff;
+    margin-right: 20px;
+    padding: 15px;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+
+.b-c:hover{
+    background-color: white;
+    color: #0355CC;
+    border: 1px solid #0355CC;
+}
+
+#Contact-Us{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 80vh;
+    background-color: white;
+    margin-bottom: 40px;
+    justify-content:space-evenly;
+}
+
+form{
+    margin: 30px 0px 200px 149px;
+    display: inline-block;
+    width: 500px;
+}
+input{
+    display: block;
+    text-transform: capitalize;
+    font-size: large;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    padding:10px 150px 10px 5px;
+    box-shadow: 0px 0px 6px rgba(128, 128, 128, 0.71);
+    border: none;
+}
+#message{
+    padding: 40px 150px 40px 5px;
+}
+#b5{
+    margin-top: 25px;
+    border: none;
+    background-color: #0355CC;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#b5:hover{
+    border: 1px solid #0355CC;
+    background-color: #fff;
+    color: #0355CC;
+}
+
+#Contact-Us-header{
+    text-transform: uppercase;
+    margin-left: 149px;
+    margin-bottom: -20px;
+    font-size: xx-large;
+}
+iframe{
+    display: inline-block;
+    width: 500px;
+    height: 295px;
+    margin-bottom: 45px;
+    margin-left: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 66vh;
+    background-color: #0A0F43;
+}
+
+footer h1{
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    margin-left: 560px;
+    font-size: larger;
+}
+
+footer h2{
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 584px;
+    margin-bottom: 25px;
+}
+
+#social{
+    display: block;
+    margin-left: 570px;
+}
+
+footer a img{
+    width: 25px;
+}
+
+#hr1{
+    margin-top: 45px;
+    width: 30%;
+    display: block;
+}
+
+#hr2{
+    width: 80%;
+}
+
+.touch{
+    position: absolute;
+    top: 3600px;
+    left:400px;
+    word-spacing: 110px;
+}
+
+.touch img{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background-color:#0355CC ;
+    border-radius: 50%;
+}
+
+.touch-word{
+    position: absolute;
+    word-spacing: 84px;
+    top: 3690px;
+    left:400px;
+}
+
+.touch-word p{
+    display: inline-block;
+    font-size: xx-small;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}
